@@ -10,7 +10,6 @@ use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
-
     protected $repositories = [
         Student::class => StudentRepository::class,
         Subject::class => SubjectRepository::class,

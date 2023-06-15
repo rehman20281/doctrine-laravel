@@ -212,8 +212,8 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'ExampleClass' => App\Example\ExampleClass::class,
         'EntityManager' => LaravelDoctrine\ORM\Facades\EntityManager::class,
-        'Registry'      => LaravelDoctrine\ORM\Facades\Registry::class,
-        'Doctrine'      => LaravelDoctrine\ORM\Facades\Doctrine::class,
+        'Registry' => LaravelDoctrine\ORM\Facades\Registry::class,
+        'Doctrine' => LaravelDoctrine\ORM\Facades\Doctrine::class,
     ])->toArray(),
 
 ];

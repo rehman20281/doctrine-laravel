@@ -13,11 +13,6 @@ use Doctrine\ORM\EntityRepository;
 
 class StudentRepository extends EntityRepository implements StudentRepositoryInterface
 {
-
-    /**
-     * @param $id
-     * @return object|null
-     */
     public function findStd($id): object|null
     {
         return $this->find(1);

@@ -14,8 +14,7 @@ class StudentService
 {
     public function __construct(
         protected StudentRepository $studentRepository,
-    )
-    {
+    ) {
     }
 
     /**
