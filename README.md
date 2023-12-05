@@ -1,2 +1,5 @@
-# Please checkout to doctrine-laravel branch 
-# there is complete program with doctrine orm
+## ``Please Note ``
+``Checkout to below branch, there is complete implementation with doctrine/orm``
+```
+git checkout -f doctrine-laravel
+```
